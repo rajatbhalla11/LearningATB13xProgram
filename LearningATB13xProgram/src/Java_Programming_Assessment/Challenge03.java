@@ -12,38 +12,14 @@ public class Challenge03 {
 			System.out.println("Enter second number");
 			int b = sc.nextInt();
 			
-			// Arithmetic Operations
-	        int addition = a + b;
-	        int subtraction = a - b;
-	        int multiplication = a * b;
-	        int division = a / b;
-	        int modulus = a % b;
+			// Comparison
+	        System.out.println("a == b: " + (a == b));
+	        System.out.println("a > b: " + (a > b));
+	        System.out.println("a < b: " + (a < b));
 
-	        System.out.println("Addition: " + addition);
-	        System.out.println("Subtraction: " + subtraction);
-	        System.out.println("Multiplication: " + multiplication);
-	        System.out.println("Division: " + division);
-	        System.out.println("Modulus: " + modulus);
-
-	        // Assignment Operations
-	        int x = a; // copy of a for demonstration
-	        x += b;
-	        System.out.println("After x += b: " + x);
-
-	        x = a;
-	        x -= b;
-	        System.out.println("After x -= b: " + x);
-
-	        x = a;
-	        x *= b;
-	        System.out.println("After x *= b: " + x);
-
-	        x = a;
-	        x /= b;
-	        System.out.println("After x /= b: " + x);
-
-	        x = a;
-	        x %= b;
-	        System.out.println("After x %= b: " + x);
+	        // Logical
+	        System.out.println("(a > b) && (a > 0): " + ((a > b) && (a > 0)));
+	        System.out.println("(a < b) || (a > 0): " + ((a < b) || (a > 0)));
+	        System.out.println("!(a > b): " + (!(a > b)));
 		}
 		}
